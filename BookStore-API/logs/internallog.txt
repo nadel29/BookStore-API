@@ -1,0 +1,146 @@
+2020-11-01 09:56:45.9794 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-11-01 09:56:46.0901 Debug Found assembly location directory: 'C:\Udemy End to End ASP.NET Core 3.1 API and Blazor Development\BookStoreAPI\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-11-01 09:56:46.0901 Debug Search for auto loading files in location: C:\Udemy End to End ASP.NET Core 3.1 API and Blazor Development\BookStoreAPI\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1
+2020-11-01 09:56:46.0901 Debug Start auto loading, location: C:\Udemy End to End ASP.NET Core 3.1 API and Blazor Development\BookStoreAPI\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1
+2020-11-01 09:56:46.1102 Info Auto loading assembly file: C:\Udemy End to End ASP.NET Core 3.1 API and Blazor Development\BookStoreAPI\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-11-01 09:56:46.1102 Info Loading assembly file: C:\Udemy End to End ASP.NET Core 3.1 API and Blazor Development\BookStoreAPI\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-11-01 09:56:46.1527 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.5.1409. Product version: 1.6.5+c05b105d8cd52581a50da2af91ebacf8d4bc8f0d. GlobalAssemblyCache: False
+2020-11-01 09:56:46.1527 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-11-01 09:56:46.1527 Info Auto loading assembly file: C:\Udemy End to End ASP.NET Core 3.1 API and Blazor Development\BookStoreAPI\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-11-01 09:56:46.1527 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-11-01 09:56:46.1694 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-11-01 09:56:46.1694 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2020-11-01 09:56:46.1694 Debug Auto loading done
+2020-11-01 09:56:46.1694 Info Message Template Auto Format enabled
+2020-11-01 09:56:46.2400 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.2528 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-11-01 09:56:46.2808 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-11-01 09:56:46.2808 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-11-01 09:56:46.2808 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.2808 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-11-01 09:56:46.2947 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.2947 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-11-01 09:56:46.2947 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-11-01 09:56:46.3072 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-11-01 09:56:46.3072 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-11-01 09:56:46.3072 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-11-01 09:56:46.3072 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.3072 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-11-01 09:56:46.3244 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.3244 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-11-01 09:56:46.3525 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2020-11-01 09:56:46.3553 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/${shortdate}_logfile.txt'
+2020-11-01 09:56:46.3553 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.3553 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-11-01 09:56:46.3553 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-11-01 09:56:46.3553 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.3553 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-11-01 09:56:46.3553 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-11-01 09:56:46.3553 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2020-11-01 09:56:46.3553 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.3707 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-11-01 09:56:46.3707 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.3707 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-11-01 09:56:46.3707 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-11-01 09:56:46.3707 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-11-01 09:56:46.3707 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-11-01 09:56:46.3707 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-11-01 09:56:46.3707 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.3707 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-11-01 09:56:46.3707 Info Adding target FileTarget(Name=logfile)
+2020-11-01 09:56:46.3873 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-11-01 09:56:46.3873 Trace ParseRulesElement
+2020-11-01 09:56:46.4655 Debug Watching path 'C:\Udemy End to End ASP.NET Core 3.1 API and Blazor Development\BookStoreAPI\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1' filter 'NLog.config' for changes.
+2020-11-01 09:56:46.4655 Debug --- NLog configuration dump ---
+2020-11-01 09:56:46.4655 Debug Targets:
+2020-11-01 09:56:46.4655 Debug File Target[logfile]
+2020-11-01 09:56:46.4655 Debug Rules:
+2020-11-01 09:56:46.4846 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-11-01 09:56:46.4846 Debug --- End of NLog configuration dump ---
+2020-11-01 09:56:46.4998 Trace FindReachableObject<System.Object>:
+2020-11-01 09:56:46.4998 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-11-01 09:56:46.4998 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-11-01 09:56:46.4998 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-11-01 09:56:46.4998 Trace   Scanning Property FileName ''c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2020-11-01 09:56:46.4998 Trace   Scanning SimpleLayout ''c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/${shortdate}_logfile.txt''
+2020-11-01 09:56:46.5098 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-11-01 09:56:46.5098 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-11-01 09:56:46.5098 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-11-01 09:56:46.5098 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-11-01 09:56:46.5098 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-11-01 09:56:46.5098 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-11-01 09:56:46.5098 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-11-01 09:56:46.5098 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-11-01 09:56:46.5098 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-11-01 09:56:46.5098 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-11-01 09:56:46.5098 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-11-01 09:56:46.5257 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-11-01 09:56:46.5257 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-11-01 09:56:46.5257 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-11-01 09:56:46.5257 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-11-01 09:56:46.5257 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-11-01 09:56:46.5257 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-11-01 09:56:46.5257 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-11-01 09:56:46.5257 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-11-01 09:56:46.5448 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Udemy End to End ASP.NET Core 3.1 API and Blazor Development\BookStoreAPI\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.config
+2020-11-01 09:56:46.5448 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-11-01 09:56:46.5743 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-11-01 09:56:46.5743 Trace Initializing Layout Renderer: ${message}
+2020-11-01 09:56:46.5743 Trace Initializing Layout Renderer: ${literal}
+2020-11-01 09:56:46.5743 Trace Initializing Layout Renderer: ${level}
+2020-11-01 09:56:46.5743 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-11-01 09:56:46.5974 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.5974 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-11-01 09:56:46.5974 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-11-01 09:56:46.5974 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-11-01 09:56:46.6130 Trace Initializing Layout Renderer: ${uppercase}
+2020-11-01 09:56:46.6130 Trace Initializing Layout Renderer: ${literal}
+2020-11-01 09:56:46.6130 Trace Initializing Layout Renderer: ${longdate}
+2020-11-01 09:56:46.6130 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-11-01 09:56:46.6130 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.6205 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-11-01 09:56:46.6205 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-11-01 09:56:46.6205 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-11-01 09:56:46.6205 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-11-01 09:56:46.6205 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-11-01 09:56:46.6205 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-11-01 09:56:46.6205 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-11-01 09:56:46.6205 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-11-01 09:56:46.6205 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-11-01 09:56:46.6205 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-11-01 09:56:46.6205 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-11-01 09:56:46.6369 Trace Initializing Layout Renderer: ${literal}
+2020-11-01 09:56:46.6369 Trace Initializing Layout Renderer: ${shortdate}
+2020-11-01 09:56:46.6369 Trace Initializing Layout Renderer: ${literal}
+2020-11-01 09:56:46.6369 Trace Initializing 'c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/${shortdate}_logfile.txt'
+2020-11-01 09:56:46.6369 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-11-01 09:56:46.6369 Trace Scanning SimpleLayout ''c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/${shortdate}_logfile.txt''
+2020-11-01 09:56:46.6369 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-11-01 09:56:46.6369 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-11-01 09:56:46.6369 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-11-01 09:56:46.6369 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-11-01 09:56:46.6369 Trace Initializing File Target[logfile]
+2020-11-01 09:56:46.6579 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-11-01 09:56:46.6579 Trace Scanning FileTarget 'File Target[logfile]'
+2020-11-01 09:56:46.6579 Trace  Scanning Property FileName ''c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2020-11-01 09:56:46.6579 Trace  Scanning SimpleLayout ''c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/${shortdate}_logfile.txt''
+2020-11-01 09:56:46.6579 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-11-01 09:56:46.6579 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-11-01 09:56:46.6667 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-11-01 09:56:46.6667 Trace File Target[logfile] has 2 layouts
+2020-11-01 09:56:46.6667 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-11-01 09:56:46.6879 Info Configuration initialized.
+2020-11-01 09:56:46.6879 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-11-01 09:56:46.7049 Debug Targets for BookStore_API.Services.LoggerService by level:
+2020-11-01 09:56:46.7049 Debug Trace =>
+2020-11-01 09:56:46.7049 Debug Debug => logfile
+2020-11-01 09:56:46.7049 Debug Info => logfile
+2020-11-01 09:56:46.7049 Debug Warn => logfile
+2020-11-01 09:56:46.7049 Debug Error => logfile
+2020-11-01 09:56:46.7049 Debug Fatal => logfile
+2020-11-01 09:56:46.7814 Debug FileTarget(Name=logfile): Preparing for new file 'c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/2020-11-01_logfile.txt'
+2020-11-01 09:56:46.7971 Debug Creating file appender: c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/2020-11-01_logfile.txt
+2020-11-01 09:56:46.7971 Trace Opening c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/2020-11-01_logfile.txt with allowFileSharedWriting=False
+2020-11-01 09:57:02.5722 Trace Opening c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/2020-11-01_logfile.txt with allowFileSharedWriting=False
+2020-11-01 09:59:59.8605 Trace Opening c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/2020-11-01_logfile.txt with allowFileSharedWriting=False
+2020-11-01 10:02:11.0853 Trace Opening c:/Udemy End to End ASP.NET Core 3.1 API and Blazor Development/BookStoreAPI/BookStore-API/BookStore-API/logs/2020-11-01_logfile.txt with allowFileSharedWriting=False
