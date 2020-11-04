@@ -76,8 +76,12 @@ namespace BookStore_API
 
             });
 
+            //AddSingleton means it will be registered once for all requests.
             //NLog
             services.AddSingleton<ILoggerService, LoggerService>();
+
+            //AddScoped means it will be registered for each client request (connection).
+            services.AddScoped<IAuthorRepository, AuthorRepository>();
 
             services.AddControllers();
         }

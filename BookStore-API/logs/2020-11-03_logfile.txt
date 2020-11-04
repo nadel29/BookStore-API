@@ -1,0 +1,6 @@
+2020-11-03 13:13:41.1844 INFO Attempted Get All Authors
+2020-11-03 13:13:42.2078 INFO Successfully get all authors
+2020-11-03 13:14:06.9978 INFO Attempted Get All Authors
+2020-11-03 13:14:07.0380 INFO Successfully get all authors
+2020-11-03 13:37:43.1070 INFO Attempted Get An Author with id: 1
+2020-11-03 13:37:44.0347 WARN Author with id: 1 was not found.
