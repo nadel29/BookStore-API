@@ -1,0 +1,53 @@
+2020-11-09 09:32:51.2816 INFO Books - Update: Update attempted on record with id: 2
+2020-11-09 09:32:54.0761 WARN Books - Update: Failed to retrieve record with id: 2
+2020-11-09 09:33:22.5840 INFO Books - GetBooks: Attempted call
+2020-11-09 09:33:22.8786 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-11-09 09:33:39.4774 INFO Books - GetBooks: Attempted call
+2020-11-09 09:33:39.5049 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-11-09 09:34:03.0373 INFO Authors - GetAuthors: Attempted call
+2020-11-09 09:34:03.2416 INFO Authors - GetAuthors: Successfull
+2020-11-09 09:34:09.5793 INFO Books - GetBooks: Attempted call
+2020-11-09 09:34:09.5985 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-11-09 09:34:23.7150 INFO Books - GetBooks: Attempted call
+2020-11-09 09:34:23.7372 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-11-09 09:38:33.9731 INFO Books - GetBooks: Attempted call
+2020-11-09 09:38:33.9852 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-11-09 09:41:17.2351 INFO Books - Create: Attempted call
+2020-11-09 09:41:19.9927 ERROR An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Authors", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:a3af50df-dd49-4fff-90a5-187119e20b5c
+Error Number:547,State:0,Class:16
+2020-11-09 09:41:27.7815 INFO Books - GetBooks: Attempted call
+2020-11-09 09:41:28.2820 INFO Books - GetBooks: Successfull
+2020-11-09 09:41:44.6606 INFO Books - GetBooks: Attempted call
+2020-11-09 09:41:44.6859 INFO Books - GetBooks: Successfull
+2020-11-09 09:41:53.8221 INFO Books - Update: Update attempted on record with id: 3
+2020-11-09 09:41:53.8221 WARN Books - Update: Update failed with with bad data - id: 3
+2020-11-09 09:42:20.2750 INFO Books - Update: Update attempted on record with id: 3
+2020-11-09 09:42:20.6648 INFO Books - Update: Update successful for record of id: 3.
+2020-11-09 09:42:27.2956 INFO Books - GetBooks: Attempted call
+2020-11-09 09:42:27.2956 INFO Books - GetBooks: Successfull
+2020-11-09 09:47:14.0064 INFO Books - Update: Update attempted on record with id: 3
+2020-11-09 09:47:14.0758 WARN Books - Update: Update failed with with bad data - id: 3
+2020-11-09 09:48:21.7962 INFO Books - Update: Update attempted on record with id: 3
+2020-11-09 09:48:24.7068 INFO Books - Update: Update successful for record of id: 3.
+2020-11-09 10:43:22.0588 INFO Books - Create: Attempted call
+2020-11-09 10:43:22.9138 INFO Books - Create: Creation Succeessful.
+2020-11-09 10:44:45.8154 INFO Books - GetBooks: Attempted call
+2020-11-09 10:44:45.9685 INFO Books - GetBooks: Successfull
+2020-11-09 10:45:34.7757 INFO Books - Delete: Delete attempted on record with id: 3
+2020-11-09 10:45:34.8774 INFO Books - Delete: Delete successful for record of id: 3.
+2020-11-09 10:45:52.6652 INFO Books - GetBooks: Attempted call
+2020-11-09 10:45:52.6714 INFO Books - GetBooks: Successfull

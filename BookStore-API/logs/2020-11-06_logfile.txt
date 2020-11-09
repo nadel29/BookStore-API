@@ -1,0 +1,6 @@
+2020-11-06 10:33:12.8252 INFO Books - GetBooks: Attempted call
+2020-11-06 10:33:13.8410 INFO Books - GetBooks: Successfull
+2020-11-06 10:33:40.5356 INFO Books - GetBooks: Attempted call
+2020-11-06 10:33:40.5708 INFO Books - GetBooks: Successfull
+2020-11-06 10:34:33.1415 INFO Books - GetBook: Attempted call for id: 1
+2020-11-06 10:34:33.2631 WARN Books - GetBook: Failed to retrieve record with id: 1.

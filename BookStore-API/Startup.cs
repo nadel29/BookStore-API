@@ -82,6 +82,7 @@ namespace BookStore_API
 
             //AddScoped means it will be registered for each client request (connection).
             services.AddScoped<IAuthorRepository, AuthorRepository>();
+            services.AddScoped<IBookRepository, BookRepository>();
 
             services.AddControllers();
         }
