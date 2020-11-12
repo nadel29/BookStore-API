@@ -1,0 +1,14 @@
+2020-11-12 15:34:28.4706 INFO Users - Login: Login attempt from User: mmm
+2020-11-12 15:34:28.5370 INFO Users - Login: mmm Not authenticated.
+2020-11-12 15:34:46.3234 INFO Users - Login: Login attempt from User: admin
+2020-11-12 15:34:46.4242 INFO Users - Login: admin Successfully authenticated.
+2020-11-12 16:16:06.0957 INFO Authors - GetAuthors: Attempted call
+2020-11-12 16:16:06.1870 INFO Authors - GetAuthors: Successfull
+2020-11-12 16:16:30.4522 INFO Authors - GetAuthor: Attempted Call for id: 2
+2020-11-12 16:16:30.4828 INFO Authors - GetAuthor: Successfully got record for id: 2
+2020-11-12 16:18:05.7213 INFO Users - Login: Login attempt from User: customer1
+2020-11-12 16:18:05.8159 INFO Users - Login: customer1 Successfully authenticated.
+2020-11-12 16:20:52.2436 INFO Users - Login: Login attempt from User: admin
+2020-11-12 16:20:52.2655 INFO Users - Login: admin Successfully authenticated.
+2020-11-12 16:21:04.3299 INFO Authors - Create: Create attempted.
+2020-11-12 16:21:04.4670 WARN Authors - Create: Creation successful.
