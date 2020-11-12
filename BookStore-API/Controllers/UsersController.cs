@@ -90,10 +90,19 @@ namespace BookStore_API.Controllers
             var roles = await _userManager.GetRolesAsync(user);
 
             //Add roles to the list of claims
-            claims.AddRange(roles.Select(r => new Claim(ClaimsIdentity.DefaultRoleClaimType, r)));
+            claims.AddRange(roles.Select(r => new Claim(ClaimsIdentity.DefaultRoleClaimType, r))) ;
 
-            var token = new JwtSecurityToken(_config["Jwt:Issuer"], _config["Jwt:Issuer"], claims, null, expires: DateTime.Now.AddHours(1), signingCredentials: credentials);
-            
+            //Alternative code
+            //foreach(var role in roles)
+            //{
+            //    claims.Add(new Claim(ClaimTypes.Role, role));
+            //}
+
+            var token = new JwtSecurityToken(_config["Jwt:Issuer"], _config["Jwt:Issuer"], 
+                claims,
+                null, 
+                expires: DateTime.Now.AddHours(1),
+                signingCredentials: credentials);            
 
             
             return new JwtSecurityTokenHandler().WriteToken(token);
