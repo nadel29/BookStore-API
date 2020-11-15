@@ -1,0 +1,2 @@
+2020-11-14 11:12:59.2250 INFO Users - register: Registration attempt from User: user@example.com
+2020-11-14 12:57:10.1585 INFO Users - register: Registration attempt from User: dahlia@bookstore.com

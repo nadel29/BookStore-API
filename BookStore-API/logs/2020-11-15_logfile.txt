@@ -1,0 +1,6 @@
+2020-11-15 11:44:34.7273 INFO Users - Login: Login attempt from User: dahlia@bookstore.com
+2020-11-15 11:44:35.2557 INFO Users - Login: dahlia@bookstore.com Successfully authenticated.
+2020-11-15 12:20:26.3360 INFO Users - register: Registration attempt from User: sarah@bookstore.com
+2020-11-15 12:23:04.2987 INFO Users - register: Registration attempt from User: mervat@bookstore.com
+2020-11-15 12:29:02.5172 INFO Users - Login: Login attempt from User: mervat@bookstore.com
+2020-11-15 12:29:02.6674 INFO Users - Login: mervat@bookstore.com Successfully authenticated.
