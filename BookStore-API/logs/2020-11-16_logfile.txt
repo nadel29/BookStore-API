@@ -1,0 +1,4 @@
+2020-11-16 12:52:53.6108 INFO Users - Login: Login attempt from User: mervat@bookstore.com
+2020-11-16 12:52:54.1408 INFO Users - Login: mervat@bookstore.com Successfully authenticated.
+2020-11-16 12:53:54.3598 INFO Authors - GetAuthors: Attempted call
+2020-11-16 12:53:54.4201 INFO Authors - GetAuthors: Successfull

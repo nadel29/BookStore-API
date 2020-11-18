@@ -1,0 +1,78 @@
+2020-11-18 11:02:50.2358 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-18 11:02:50.3848 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-18 11:02:55.4954 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:02:55.5399 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:02:57.0512 INFO Authors - GetAuthor: Attempted Call for id: 2
+2020-11-18 11:02:57.0717 INFO Authors - GetAuthor: Successfully got record for id: 2
+2020-11-18 11:03:01.6660 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:03:01.6660 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:03:22.9187 INFO Authors - GetAuthor: Attempted Call for id: 3
+2020-11-18 11:03:22.9251 INFO Authors - GetAuthor: Successfully got record for id: 3
+2020-11-18 11:03:51.2216 INFO Authors - Delete: Delete attempted on record with id: 3
+2020-11-18 11:03:51.3758 INFO Authors - Delete: Delete successful for record of id: 3.
+2020-11-18 11:03:51.3934 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:03:51.3934 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:35:53.8459 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-18 11:35:53.9962 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-18 11:35:57.7949 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:35:57.8383 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:36:44.0798 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-18 11:36:44.2159 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-18 11:36:46.1902 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:36:46.2407 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:37:54.9395 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-18 11:37:55.0846 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-18 11:37:57.5006 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:37:57.5448 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:40:01.5346 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:40:01.5346 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:40:21.1582 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-18 11:40:21.2971 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-18 11:40:24.7473 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:40:24.7945 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:40:42.1224 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:40:42.1265 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:41:37.2838 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-18 11:41:37.4429 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-18 11:41:39.2619 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:41:39.3051 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:43:16.2359 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:43:16.2359 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:43:46.8617 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-18 11:43:47.0028 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-18 11:43:49.3639 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:43:49.4126 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:46:41.5182 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-18 11:46:41.6884 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-18 11:46:44.6103 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:46:44.6578 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:55:27.0824 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-18 11:55:27.2141 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-18 11:55:28.6129 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:55:28.6582 INFO Authors - GetAuthors: Successfull
+2020-11-18 11:55:44.1809 INFO Authors - Create: Create attempted.
+2020-11-18 11:55:44.3227 WARN Authors - Create: Creation successful.
+2020-11-18 11:55:44.3429 INFO Authors - GetAuthors: Attempted call
+2020-11-18 11:55:44.3429 INFO Authors - GetAuthors: Successfull
+2020-11-18 12:50:05.8663 INFO Users - Login: Login attempt from User: mervat@bookstore.com
+2020-11-18 12:50:06.2739 INFO Users - Login: mervat@bookstore.com Successfully authenticated.
+2020-11-18 12:50:09.1737 INFO Authors - GetAuthors: Attempted call
+2020-11-18 12:50:09.3317 INFO Authors - GetAuthors: Successfull
+2020-11-18 12:50:20.9790 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-18 12:50:21.0060 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-18 12:50:25.4022 INFO Authors - GetAuthors: Attempted call
+2020-11-18 12:50:25.4112 INFO Authors - GetAuthors: Successfull
+2020-11-18 15:26:04.7525 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-18 15:26:04.8922 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-18 15:26:11.2429 INFO Authors - GetAuthors: Attempted call
+2020-11-18 15:26:11.3585 INFO Authors - GetAuthors: Successfull
+2020-11-18 15:26:17.4396 INFO Authors - GetAuthor: Attempted Call for id: 2
+2020-11-18 15:26:17.4697 INFO Authors - GetAuthor: Successfully got record for id: 2
+2020-11-18 15:26:36.5241 INFO Authors - GetAuthors: Attempted call
+2020-11-18 15:26:36.5241 INFO Authors - GetAuthors: Successfull
+2020-11-18 15:26:37.3142 INFO Authors - GetAuthor: Attempted Call for id: 4
+2020-11-18 15:26:37.3142 INFO Authors - GetAuthor: Successfully got record for id: 4
+2020-11-18 15:26:38.9944 INFO Authors - GetAuthors: Attempted call
+2020-11-18 15:26:38.9944 INFO Authors - GetAuthors: Successfull
+2020-11-18 15:26:39.8916 INFO Authors - GetAuthor: Attempted Call for id: 2
+2020-11-18 15:26:39.8981 INFO Authors - GetAuthor: Successfully got record for id: 2

@@ -50,6 +50,7 @@ namespace BookStore_UI
             //Transietn lifetime services are created each time they're requested
             //Scoped lifetime services are created once per request. 
             services.AddTransient<IAuthenticationRepository, AuthenticationRepository>();
+            services.AddTransient<IAuthorRepository, AuthorRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -105,7 +105,12 @@ namespace BookStore_API
             services.AddScoped<IAuthorRepository, AuthorRepository>();
             services.AddScoped<IBookRepository, BookRepository>();
 
-            services.AddControllers();
+            //loophandling means each entity knows about the other for Books json
+            //Let Newtonsoft handle it
+            //Helps in bigger apps when there are a lot of includes.
+            services.AddControllers().AddNewtonsoftJson(op =>
+            op.SerializerSettings.ReferenceLoopHandling = 
+                Newtonsoft.Json.ReferenceLoopHandling.Ignore);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -134,7 +139,11 @@ namespace BookStore_API
             });
 
             app.UseHttpsRedirection();
+
+            //CORS
             app.UseCors("CorsPolicy");
+
+
             SeedData.Seed(userManager, roleManager).Wait();
 
             app.UseRouting();

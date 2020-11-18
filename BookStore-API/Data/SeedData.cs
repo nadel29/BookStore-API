@@ -17,19 +17,19 @@ namespace BookStore_API.Data
         }
         private async static Task SeedUsers(UserManager<IdentityUser> userManager)
         {
-            if(await userManager.FindByEmailAsync("admin@bookstore.com") == null)
-            {
-                var user = new IdentityUser
-                {
-                    UserName = "admin",
-                    Email = "admin@bookstore.com"
-                };
-                var result = await userManager.CreateAsync(user, "P@ssword1");
-                if(result.Succeeded)
-                {
-                    await userManager.AddToRoleAsync(user, "Administrator");
-                }
-            }
+            //if(await userManager.FindByEmailAsync("admin@bookstore.com") == null)
+            //{
+            //    var user = new IdentityUser
+            //    {
+            //        UserName = "admin@bookstore.com",
+            //        Email = "admin@bookstore.com"
+            //    };
+            //    var result = await userManager.CreateAsync(user, "P@ssword1");
+            //    if(result.Succeeded)
+            //    {
+            //        await userManager.AddToRoleAsync(user, "Administrator");
+            //    }
+            //}
 
             if (await userManager.FindByEmailAsync("customer1@gmail.com") == null)
             {
@@ -60,14 +60,14 @@ namespace BookStore_API.Data
         }
         private async static Task SeedRoles(RoleManager<IdentityRole> roleManager)
         {
-            if(!await roleManager.RoleExistsAsync("Administrator"))
-            {
-                var role = new IdentityRole
-                {
-                    Name = "Administrator"
-                };
-                await roleManager.CreateAsync(role);
-            }
+            //if(!await roleManager.RoleExistsAsync("Administrator"))
+            //{
+            //    var role = new IdentityRole
+            //    {
+            //        Name = "Administrator"
+            //    };
+            //    await roleManager.CreateAsync(role);
+            //}
             if (!await roleManager.RoleExistsAsync("Customer"))
             {
                 var role = new IdentityRole
