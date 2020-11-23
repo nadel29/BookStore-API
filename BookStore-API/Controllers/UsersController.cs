@@ -111,6 +111,7 @@ namespace BookStore_API.Controllers
         }
 
         //A token stores the credentials and claims that we defined, including the role
+        //The token has encoded information about the user.
         private async Task<string> GenerateJSONWebToken (IdentityUser user)
         {
             //Generate the security key

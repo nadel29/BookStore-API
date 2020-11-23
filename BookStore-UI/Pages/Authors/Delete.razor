@@ -9,6 +9,10 @@
 {
     <ErrorMessage Message="Something went wrong."></ErrorMessage>
 }
+@if (int.Parse(Id) < 1 || string.IsNullOrWhiteSpace(Id))
+{
+    <ErrorMessage Message="Invalid Selection. Please try again."></ErrorMessage>
+}
 @if (Model == null)
 {
     <LoadingMessage Message="Loading Author Details."></LoadingMessage>

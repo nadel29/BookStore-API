@@ -1,0 +1,30 @@
+2020-11-22 15:24:47.2704 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-22 15:24:47.7164 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-22 15:24:50.5743 INFO Books - GetBooks: Attempted call
+2020-11-22 15:24:50.7488 INFO Books - GetBooks: Successfull
+2020-11-22 15:25:24.8854 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-22 15:25:24.9117 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-22 15:25:27.7452 INFO Authors - GetAuthors: Attempted call
+2020-11-22 15:25:27.9971 INFO Authors - GetAuthors: Successfull
+2020-11-22 15:25:29.3145 INFO Books - GetBooks: Attempted call
+2020-11-22 15:25:29.3145 INFO Books - GetBooks: Successfull
+2020-11-22 15:26:34.0845 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-22 15:26:34.8543 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-22 15:26:37.5793 INFO Books - GetBooks: Attempted call
+2020-11-22 15:26:37.6767 INFO Books - GetBooks: Successfull
+2020-11-22 15:31:06.4576 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-22 15:31:06.8643 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-22 15:31:09.3044 INFO Books - GetBooks: Attempted call
+2020-11-22 15:31:09.6509 INFO Books - GetBooks: Successfull
+2020-11-22 20:08:19.7200 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-22 20:08:19.8684 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-22 20:08:21.8797 INFO Books - GetBooks: Attempted call
+2020-11-22 20:08:21.9629 INFO Books - GetBooks: Successfull
+2020-11-22 20:08:25.3858 INFO Books - GetBook: Attempted call for id: 5
+2020-11-22 20:08:25.4084 INFO Books - GetBook: Successfully got record with id: 5
+2020-11-22 20:10:05.6654 INFO Users - Login: Login attempt from User: admin@bookstore.com
+2020-11-22 20:10:05.6858 INFO Users - Login: admin@bookstore.com Successfully authenticated.
+2020-11-22 20:10:13.8795 INFO Books - GetBooks: Attempted call
+2020-11-22 20:10:13.8795 INFO Books - GetBooks: Successfull
+2020-11-22 20:10:15.4282 INFO Books - GetBook: Attempted call for id: 5
+2020-11-22 20:10:15.4282 INFO Books - GetBook: Successfully got record with id: 5
