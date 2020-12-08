@@ -95,6 +95,7 @@ namespace BookStore_API.Controllers
                 {
                     _logger.LogInfo($"{location}: {username} Successfully authenticated.");
                     var user = await _userManager.FindByEmailAsync(username);
+
                     var tokenString = await GenerateJSONWebToken(user);
                     return Ok(new { token = tokenString});
                 }
@@ -116,6 +117,7 @@ namespace BookStore_API.Controllers
         {
             //Generate the security key
             var securitykey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+
             //The credentials should include hashing
             var credentials = new SigningCredentials(securitykey, SecurityAlgorithms.HmacSha256);
 
